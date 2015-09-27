@@ -258,6 +258,7 @@ if (BUILD_DOCS)
       #               PATTERN "*.rb"
       #               PATTERN "3rdparty" EXCLUDE
       )
+  install(FILES "README.html" DESTINATION "${DFHACK_DATA_DESTINATION}")
 endif()
 
 # Packaging with CPack!
