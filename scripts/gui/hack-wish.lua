@@ -4,7 +4,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/hack-wish
+.. _scripts/gui/hack-wish:
 
 gui/hack-wish
 =============

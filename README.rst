@@ -1,5 +1,8 @@
-Welcome to DFHack's documentation!
-==================================
+====================
+DFHack Documentation
+====================
+
+
 
 Introduction
 ============
@@ -36,7 +39,7 @@ User Manual:
 
    docs/Core
    docs/Plugins
-   docs/Scripts
+   scripts/README
 
 Other Contents:
 

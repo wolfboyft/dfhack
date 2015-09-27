@@ -35,7 +35,7 @@ def makeIncludeAll(directory, extensions):
   #print(outputFile)
   files = [ f for f in listdir(directory) if isfile(join(directory,f)) and endsWithAny(f,extensions) ]
   files.sort()
-  out = open(outputFile, 'w')
+  outstr = ''
   for f in files:
     #TODO: check if the file contains the BEGIN_DOCS string
     #print(join(directory,f))
@@ -43,8 +43,14 @@ def makeIncludeAll(directory, extensions):
     data = fstream.read().replace('\n','')
     fstream.close()
     if 'BEGIN_DOCS' in data:
-      out.write('.. include:: ' + join(directory,f) + '\n   :start-after: BEGIN_DOCS\n   :end-before: END_DOCS\n\n')
-  out.close()
+      outstr = outstr + '.. include:: ' + join(directory,f) + '\n   :start-after: BEGIN_DOCS\n   :end-before: END_DOCS\n\n'
+  if outstr != '':
+    out = open(outputFile, 'w')
+    out.write(outstr)
+    out.close()
+  else:
+    if isfile(outputFile):
+      os.remove(outputFile)
 
 def makeAllIncludeAll(directory, extensions):
   for root, subdirs, files in os.walk(directory):
@@ -59,6 +65,8 @@ makeAllIncludeAll(currentDir + '/scripts', {'.lua', '.rb'})
 #sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
+
+nitpicky = True
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
@@ -180,7 +188,7 @@ html_theme = '@SPHINX_THEME@'
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = 'dfhack-icon.ico'
+html_favicon = '../images/dfhack-icon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

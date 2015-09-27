@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/clone-uniform
+.. _scripts/gui/clone-uniform:
 
 gui/clone-uniform
 =================

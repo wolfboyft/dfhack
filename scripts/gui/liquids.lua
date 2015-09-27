@@ -3,13 +3,13 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/liquids
+.. _scripts/gui/liquids:
 
 gui/liquids
 ===========
 To use, bind to a key (the example config uses Alt-L) and activate in the 'k' mode.
 
-.. image:: images/liquids.png
+.. image:: /docs/images/liquids.png
 
 This script is a gui front-end to `plugins/liquids` and works similarly,
 allowing you to add or remove water & magma, and create obsidian walls & floors.

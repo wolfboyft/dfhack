@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/assign-rack
+.. _scripts/gui/assign-rack:
 
 gui/assign-rack
 ===============

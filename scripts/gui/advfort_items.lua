@@ -3,7 +3,7 @@ local _ENV = mkmodule('hack.scripts.gui.advfort_items')
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/advfort_items
+.. _scripts/gui/advfort_items:
 
 gui/advfort_items
 =================

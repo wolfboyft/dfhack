@@ -227,6 +227,8 @@ if (BUILD_DOCS)
   )
   SET(SPHINX_DEPS ${SPHINX_SCRIPT_DEPS} ${SPHINX_OTHER_DEPS})
 
+  #if a script is added or removed we need to rerun Sphinx. It currently doesn't do this because CMake only collects the list of dependencies when there are CMakeList changes.
+
   set(SPHINX_OUTPUT "${CMAKE_CURRENT_SOURCE_DIR}/docs/html/.buildinfo")
   set_source_files_properties(${SPHINX_OUTPUT} PROPERTIES GENERATED TRUE)
   add_custom_command(OUTPUT ${SPHINX_OUTPUT}
@@ -235,6 +237,7 @@ if (BUILD_DOCS)
       -q -b html
       -c "${SPHINX_BINARY_BUILD_DIR}"
       -d "${SPHINX_CACHE_DIR}"
+      -w "${SPHINX_BINARY_BUILD_DIR}/warnings.txt"
       "${CMAKE_CURRENT_SOURCE_DIR}"
       "${SPHINX_HTML_DIR}"
     DEPENDS ${SPHINX_DEPS}

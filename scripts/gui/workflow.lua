@@ -3,14 +3,14 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/workflow
+.. _scripts/gui/workflow:
 
 gui/workflow
 ============
 Bind to a key (the example config uses Alt-W), and activate with a job selected
 in a workshop in the 'q' mode.
 
-.. image:: images/workflow.png
+.. image:: /docs/images/workflow.png
 
 This script provides a simple interface to constraints managed by `plugins/workflow`.
 When active, it displays a list of all constraints applicable to the
@@ -34,20 +34,20 @@ the job material first using `plugins/job` ``item-material`` or `scripts/gui/wor
 as described in `plugins/workflow` documentation. In this manner, this feature
 can be used for troubleshooting jobs that don't match the right constraints.
 
-.. image:: images/workflow-new1.png
+.. image:: /docs/images/workflow-new1.png
 
 If you select one of the outputs with Enter, the matching constraint is simply
 added to the list. If you use Shift-Enter, the interface proceeds to the
 next dialog, which allows you to edit the suggested constraint parameters to
 suit your need, and set the item count range.
 
-.. image:: images/workflow-new2.png
+.. image:: /docs/images/workflow-new2.png
 
 Pressing 'S' (or, with the example config, Alt-W in the 'z' stocks screen)
 opens the overall status screen, which was copied from the C++ implementation
 by falconne for better integration with the rest of the lua script:
 
-.. image:: images/workflow-status.png
+.. image:: /docs/images/workflow-status.png
 
 This screen shows all currently existing workflow constraints, and allows
 monitoring and/or changing them from one screen. The constraint list can

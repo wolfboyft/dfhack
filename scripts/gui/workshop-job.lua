@@ -3,14 +3,14 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/workshop-job
+.. _scripts/gui/workshop-job:
 
 gui/workshop-job
 ================
 Bind to a key (the example config uses Alt-A), and activate with a job selected in
 a workshop in the 'q' mode.
 
-.. image:: images/workshop-job.png
+.. image:: /docs/images/workshop-job.png
 
 The script shows a list of the input reagents of the selected job, and allows changing
 them like the `plugins/job` ``item-type`` and `plugins/job` ``item-material`` commands.
@@ -18,12 +18,12 @@ them like the `plugins/job` ``item-type`` and `plugins/job` ``item-material`` co
 Specifically, pressing the 'i' key pops up a dialog that lets you select an item
 type from a list.
 
-.. image:: images/workshop-job-item.png
+.. image:: /docs/images/workshop-job-item.png
 
 Pressing 'm', unless the item type does not allow a material,
 lets you choose a material.
 
-.. image:: images/workshop-job-material.png
+.. image:: /docs/images/workshop-job-material.png
 
 Since there are a lot more materials than item types, this dialog is more complex
 and uses a hierarchy of sub-menus. List choices that open a sub-menu are marked

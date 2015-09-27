@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/gm-unit
+.. _scripts/gui/gm-unit:
 
 gui/gm-unit
 ===========

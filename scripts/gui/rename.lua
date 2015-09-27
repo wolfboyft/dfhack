@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/rename
+.. _scripts/gui/rename:
 
 gui/rename
 ==========
@@ -12,7 +12,7 @@ via a simple dialog in the game ui.
 
 * ``gui/rename [building]`` in 'q' mode changes the name of a building.
 
-  .. image:: images/rename-bld.png
+  .. image:: /docs/images/rename-bld.png
 
   The selected building must be one of stockpile, workshop, furnace, trap, or siege engine.
   It is also possible to rename zones from the 'i' menu.
@@ -23,7 +23,7 @@ via a simple dialog in the game ui.
 
 * ``gui/rename unit-profession`` changes the selected unit's custom profession name.
 
-  .. image:: images/rename-prof.png
+  .. image:: /docs/images/rename-prof.png
 
   Likewise, this can be applied to any unit, and when used on animals it overrides
   their species string.

@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/choose-weapons
+.. _scripts/gui/choose-weapons:
 
 gui/choose-weapons
 ==================

@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/autobutcher
+.. _scripts/gui/autobutcher:
 
 gui/autobutcher
 ===============

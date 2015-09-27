@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/power-meter
+.. _scripts/gui/power-meter:
 
 gui/power-meter
 ===============

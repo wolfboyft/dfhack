@@ -3,14 +3,14 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/room-list
+.. _scripts/gui/room-list:
 
 gui/room-list
 =============
 To use, bind to a key (the example config uses Alt-R) and activate in the 'q' mode,
 either immediately or after opening the assign owner page.
 
-.. image:: images/room-list.png
+.. image:: /docs/images/room-list.png
 
 The script lists other rooms owned by the same owner, or by the unit selected in the assign
 list, and allows unassigning them.

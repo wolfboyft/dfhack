@@ -7,7 +7,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/unit-info-viewer
+.. _scripts/gui/unit-info-viewer:
 
 gui/unit-info-viewer
 ====================

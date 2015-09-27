@@ -3,14 +3,14 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/companion-order
+.. _scripts/gui/companion-order:
 
 gui/companion-order
 ===================
 A script to issue orders for companions. Select companions with lower case chars, issue orders with upper
 case. Must be in look or talk mode to issue command on tile.
 
-.. image:: images/companion-order.png
+.. image:: /docs/images/companion-order.png
 
 * move - orders selected companions to move to location. If companions are following they will move no more than 3 tiles from you.
 * equip - try to equip items on the ground.

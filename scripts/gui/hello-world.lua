@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/hello-world
+.. _scripts/gui/hello-world:
 
 gui/hello-world
 ===============

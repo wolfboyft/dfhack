@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/no-dfhack-init
+.. _scripts/gui/no-dfhack-init:
 
 gui/no-dfhack-init
 ==================

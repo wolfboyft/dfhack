@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/siege-engine
+.. _scripts/gui/siege-engine:
 
 gui/siege-engine
 ================

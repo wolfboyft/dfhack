@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/stockpiles
+.. _scripts/gui/stockpiles:
 
 gui/stockpiles
 ==============

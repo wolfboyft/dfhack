@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/mod-manager
+.. _scripts/gui/mod-manager:
 
 gui/mod-manager
 ===============
@@ -14,7 +14,7 @@ included, but some examples are `available here`_.
 
 .. _`available here`: https://github.com/warmist/df-mini-mods
 
-.. image:: images/mod-manager.png
+.. image:: /docs/images/mod-manager.png
 
 END_DOCS
 ]]

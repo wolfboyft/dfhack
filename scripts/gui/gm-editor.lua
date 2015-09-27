@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/gm-editor
+.. _scripts/gui/gm-editor:
 
 gui/gm-editor
 =============
@@ -18,7 +18,7 @@ There are three ways to open this editor:
 * using gui/gm-editor dialog - shows an in game dialog to input lua command. Works
   the same as version above.
 
-.. image:: images/gm-editor.png
+.. image:: /docs/images/gm-editor.png
 
 This editor allows to change and modify almost anything in df. Press '?' for an
 in-game help.

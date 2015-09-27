@@ -4,7 +4,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/dfstatus
+.. _scripts/gui/dfstatus:
 
 gui/dfstatus
 ============

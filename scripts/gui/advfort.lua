@@ -3,7 +3,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/advfort
+.. _scripts/gui/advfort:
 
 gui/advfort
 ===========
@@ -22,7 +22,7 @@ keybinding. (e.g. keybinding set Ctrl-T gui/advfort). Possible arguments:
 
 An example of player digging in adventure mode:
 
-.. image:: images/advfort.png
+.. image:: /docs/images/advfort.png
 
 .. admonition:: DISCLAIMER
 

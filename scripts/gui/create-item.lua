@@ -6,7 +6,7 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/create-item
+.. _scripts/gui/create-item:
 
 gui/create-item
 ===============

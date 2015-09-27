@@ -3,13 +3,13 @@
 --[[
 BEGIN_DOCS
 
-.. _scripts/gui/mechanisms
+.. _scripts/gui/mechanisms:
 
 gui/mechanisms
 ==============
 To use, bind to a key (the example config uses Ctrl-M) and activate in the 'q' mode.
 
-.. image:: images/mechanisms.png
+.. image:: /docs/images/mechanisms.png
 
 Lists mechanisms connected to the building, and their links. Navigating the list centers
 the view on the relevant linked buildings.
