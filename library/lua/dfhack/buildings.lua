@@ -191,6 +191,12 @@ local building_inputs = {
             item_type=df.item_type.CHAIN,
             vector_id=df.job_item_vector_id.CHAIN
         }
+    },
+	[df.building_type.DisplayFurniture] = {
+        { item_type=df.item_type.DISPLAY_CASE, vector_id=df.job_item_vector_id.CABINET }
+    },
+	[df.building_type.Bookcase] = {
+        { item_type=df.item_type.BOOKCASE, vector_id=df.job_item_vector_id.CABINET }
     }
 }
 
